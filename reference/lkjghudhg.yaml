@@ -228,6 +228,24 @@ paths:
       x-stoplight:
         id: a8qnb5d76ymtq
       description: n nn
+      requestBody:
+        content:
+          application/xml:
+            schema:
+              type: object
+              properties:
+                ' x ,c ,c c ':
+                  $ref: 'stoplight://resources/overrides/0MT6ARaEvkA'
+                  x-stoplight:
+                    id: ns21wpwa9sjxq
+                'cxl, l l,l,lf':
+                  type: number
+                  x-stoplight:
+                    id: 8pybyoe98fu59
+                sdsd mcmckmfvk:
+                  $ref: ../models/n-nfnfjff.yaml
+                  x-stoplight:
+                    id: tdhbc3eytwph3
     head:
       summary: Your HEAD endpoint
       tags: []
