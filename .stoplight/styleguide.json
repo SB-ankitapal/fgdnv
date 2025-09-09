@@ -1,0 +1,25 @@
+{
+  "name": "fgdnv",
+  "description": "",
+  "spectralExtends": [],
+  "extends": [],
+  "formats": [
+    "oas2",
+    "oas3",
+    "oas3.0",
+    "oas3.1"
+  ],
+  "aliases": {},
+  "rules": {
+    ",mmkmk": {
+      "id": "M0tM0_8Fw5ZKy_3FoeLQY",
+      "given": [],
+      "severity": "error",
+      "then": {
+        "function": ""
+      },
+      "name": ",mmkmk"
+    }
+  },
+  "extendedDefault": false
+}
