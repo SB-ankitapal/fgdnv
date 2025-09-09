@@ -5,11 +5,17 @@ info:
   title: lkjghudhg
   version: '1.0'
   description: hggg jgbkb
+  summary: bnmbj i
 servers:
   - url: 'http://localhost:3000'
 paths:
   '/users/{userId}':
     parameters:
+      - schema:
+          type: string
+        name: userId
+        in: path
+        required: true
       - schema:
           type: integer
         name: userId
@@ -96,6 +102,13 @@ paths:
         description: Patch user properties to update.
       x-stoplight:
         id: 4nrfkarguhxwp
+    put:
+      summary: Your PUT endpoint
+      tags: []
+      responses: {}
+      operationId: put-users-userId
+      x-stoplight:
+        id: fbe1w639h7swv
   /user:
     post:
       summary: Create New User
@@ -152,6 +165,77 @@ paths:
       description: Create a new user.
       x-stoplight:
         id: yi6lu2cicky20
+  '/gkbjgbg/{gkggk}/gggtre/{torotojojg}/ljjsoijrjirf/{frloijeijirjeeiojoroogjtojgt}/dmdkmgkdmgk':
+    parameters:
+      - schema:
+          type: string
+        name: gkggk
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: torotojojg
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: frloijeijirjeeiojoroogjtojgt
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: gkggk
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: torotojojg
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: frloijeijirjeeiojoroogjtojgt
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: gkggk
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: torotojojg
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: frloijeijirjeeiojoroogjtojgt
+        in: path
+        required: true
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses: {}
+      operationId: get-gkbjgbg-gkggk-gggtre-torotojojg-ljjsoijrjirf-frloijeijirjeeiojoroogjtojgt-dmdkmgkdmgk
+      x-stoplight:
+        id: 14rordgdsoybo
+      description: mvjf
+    patch:
+      summary: Your PATCH endpoint
+      tags: []
+      responses: {}
+      operationId: patch-gkbjgbg-gkggk-gggtre-torotojojg-ljjsoijrjirf-frloijeijirjeeiojoroogjtojgt-dmdkmgkdmgk
+      x-stoplight:
+        id: a8qnb5d76ymtq
+      description: n nn
+    head:
+      summary: Your HEAD endpoint
+      tags: []
+      responses: {}
+      operationId: head-gkbjgbg-gkggk-gggtre-torotojojg-ljjsoijrjirf-frloijeijirjeeiojoroogjtojgt-dmdkmgkdmgk
+      x-stoplight:
+        id: aqmr6lbog4kl4
+      description: nbnjjnj
 components:
   schemas:
     User:
